@@ -2702,6 +2702,7 @@ async function disconnect(options) {
     return state.get().wallets;
 }
 
+//Testing - Henrik
 async function setChain(options) {
     const error = validateSetChainOptions(options);
     if (error) {
