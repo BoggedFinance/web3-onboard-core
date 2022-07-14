@@ -6,7 +6,7 @@ import { state } from './store'
 import { switchChainModal$ } from './streams'
 import { validateSetChainOptions } from './validation'
 import type { WalletState } from './types'
-
+//Testing - Henrik
 async function setChain(options: {
   chainId: string
   chainNamespace?: string
